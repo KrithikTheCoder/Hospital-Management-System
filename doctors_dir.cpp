@@ -9,7 +9,7 @@ struct node_d
    string type;
    long int period;
    int rating;
-   int no;
+   long int no;
    string email;
    long long int no_of_patients;
     
