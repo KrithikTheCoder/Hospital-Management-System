@@ -68,7 +68,7 @@ void sort()
     
 }
 
-void insert(string a,string b,string c,long int d,int e,int f,string g,long long int h)
+void insert(string a,string b,string c,long int d,int e,long int f,string g,long long int h)
 {
     node_d* p=first;
     node_d* t;
@@ -114,7 +114,7 @@ void insert(string a,string b,string c,long int d,int e,int f,string g,long long
   }
       sort();
 }
-void del(string a,string b,string c,int f,string g)
+void del(string a,string b,string c,long int f,string g)
 {
     node_d* p=first;
     node_d* q;
@@ -190,7 +190,7 @@ void search_email(node_d* p,string g)
     }
     cout<<"Email not found"<<endl;
 }
-void search_no(node_d* p,int f)
+void search_no(node_d* p,long int f)
 {
     while (p!=0)
     {
