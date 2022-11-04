@@ -225,7 +225,7 @@ void search(node_d* p)
      }
      else if (x==2)
      {
-         int f;
+         long int f;
         cout<<"Enter phone number: "<<endl;
        cin>>f;
        search_no(p,f);
